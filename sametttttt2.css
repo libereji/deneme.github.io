@@ -1,0 +1,37 @@
+<style>
+.post-outer{margin-left:-5%!important;padding:0}
+.post-outer-box{padding:0;box-sizing:border-box;margin:0 0 65px 5% !important}
+.snippet-img{margin-bottom:20px;margin-right:30px;display:grid;float:left}
+.snippet-thumbnail{float:none;background-position:center;padding:0;width:100%;height:auto;margin:auto;position:relative;display:block;overflow:hidden;border-radius:5px}
+.snippet-thumbnail img{transition:opacity 1s;height:auto;display:flex;align-items:center;max-width:100%;border-radius:5px}
+.snippet-thumbnail img:hover{opacity:1.1}
+.snippet-thumbnail-etc{display:none}
+.title-homepage{position:relative;text-align:left;margin:0 0 15px;display:table}
+.title-homepage:before{position:absolute;bottom:-6px;left:0;content:&#39;&#39;;width:30%;height:3px;-moz-transform:scaleX(0);-webkit-transform:scaleX(0);transform:scaleX(0);-moz-transform-origin:right;-webkit-transform-origin:right;transform-origin:right;-moz-transition:transform 1s cubic-bezier(.19,1,.22,1);-webkit-transition:transform 1s cubic-bezier(.19,1,.22,1);transition:transform 1s cubic-bezier(.19,1,.22,1)}
+.title-homepage:hover:before{transform:scaleX(1);transform-origin:left}
+h2.post-title.entry-title a{font-size:19px;font-weight:600;color:#333333}
+h2.post-title.entry-title a:hover{-webkit-transition: 0.5s all ease;transition: 0.5s all ease}
+h2.post-title.entry-title{overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-box-orient:vertical;word-wrap:break-word}
+.post-header{display:table}
+.snippet-text-box{color:#555;margin-top:10px;display:table}
+
+/* Label Home */
+.post-tags{-webkit-line-clamp:1;overflow:hidden;display:inline-table;vertical-align:-webkit-baseline-middle;-webkit-box-orient:vertical;font-size:12px;transition:all .4s ease-in-out;position:absolute;top:15px;left:15px;opacity:.8}
+.post-tags a{color:#fff;font-weight:600;text-transform:uppercase;padding:0 15px;display:block;position:relative;line-height:30px}
+.post-tags:hover{opacity:1}
+.post-tags a:hover{color:#fff}
+
+/* Media Queries */
+@media screen and (max-width: 1000px) {
+.post-comment-link{display:none}
+}
+@media screen and (max-width: 700px) {
+.snippet-thumbnail img{width:300px}
+}
+@media screen and (max-width: 600px) {
+.snippet-img{margin-right:0;float:none}
+.snippet-thumbnail img{width:100%}
+.snippet-text-box{display:none}
+.post-outer-box{margin-bottom:30px!important}
+}
+</style>

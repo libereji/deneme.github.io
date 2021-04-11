@@ -1,0 +1,10 @@
+<style> 
+#col-sidebar-wrapper,#top-widget,#bottom-widget,.comments,.top-post-ads,.bottom-post-ads,.middleAds{display:none}
+#col-posting-wrapper{width:100%;padding:0;float:none;max-width:100%;margin:0;border:none}
+#wrapper{margin:72px auto 0}
+.body-wrapper{padding:50px}
+@media screen and (max-width: 1080px) {
+.body-wrapper{padding:25px}
+}
+.post-author{visibility:hidden}
+</style>

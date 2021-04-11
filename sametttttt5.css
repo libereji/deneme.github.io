@@ -1,0 +1,21 @@
+<style>
+#col-posting-wrapper{float:none;width:100%;margin:0;word-wrap:break-word;padding:0;}
+#col-sidebar-wrapper,#top-widget,#bottom-widget{display:none}
+#error-page h1,#error-page h2{text-align:center;text-transform:uppercase}
+#error-page{text-align:center;margin:100px 0}
+#error-page h1{font-size:70px}
+#error-page h2{font-size:20px}
+#blog-pager{margin-bottom:50px}
+.body-post-wrapper{width:100%}
+#blog-pager,.body-sidebar-wrapper{display:none}
+.streetcircle{background:url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/15979/citywall.png) 0 -5px repeat-x;height:240px;width:240px;margin:50px auto;position:relative;overflow:hidden;border-radius:123px;border:5px solid #fff;box-shadow:0 5px 20px rgba(black,0.5);animation:wallslide 4s linear infinite}
+.hoodie{animation:run-cycle .6s steps(6) infinite;background:url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/15979/running.png) 0 0 no-repeat;height:160px;width:112px;position:absolute;bottom:50px;left:66px;margin:0 auto}
+@keyframes run-cycle {
+0%{background-position:0 0}
+100%{background-position:-672px 0}
+}
+@keyframes wallslide {
+0%{background-position:0 -5px}
+100%{background-position:-1053px -5px}
+}
+</style>

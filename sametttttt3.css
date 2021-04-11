@@ -1,0 +1,26 @@
+<style>
+.post-header{display:table}
+.post-tags{display:none}
+.title-postpage{margin:15px 0;line-height:1.5}
+h1.post-title.entry-title{font-size:30px;color:#333333;text-align:left;font-weight:600}
+.post-footer{margin:25px 0}
+#blog-pager{margin:70px 0 40px}
+.post-footer-line.post-footer-line-1,.post-footer-line.post-footer-line-2{margin-bottom:20px}
+.item-featured-thumbnail{margin-top:25px}
+.middleAds{margin:25px auto 0;padding:0;text-align:center;display:block;position:relative;overflow:hidden;max-width:100%;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}
+
+
+
+#comments-block{display:none;background:#fff;margin:20px auto;padding:0}
+.comments-blocks button {display:block;margin:0 auto 40px;width:100%;outline:none;border:none;font-family:unset;cursor:pointer;font-weight:600;height:55px;    color:#ffffff;line-height:55px;padding:0!important;font-size:16px;border-radius:5px}
+.comments-blocks button:hover{transition:all .3s ease-in-out}
+
+.nav-post-page{display:-webkit-box;padding:25px 0;margin:10px 0 20px;border-bottom:1px solid #eee;border-top:1px solid #eee}
+.post-page-navigation{padding:0;width:100%}
+ul.post-page-navigation{margin:0}
+.post-page-navigation li{float:right;width:50%;list-style:none;text-align:right;margin:0}
+.post-page-navigation li:nth-child(even){text-align:left}
+.post-page-navigation a:hover{color:#3B33DB}
+.post-page-navigation .post-nav{color:#595959;display:block;font-size:18px;text-transform:uppercase;font-weight:600;letter-spacing:1.2px}
+.post-page-navigation li a span{color:#333}
+</style>
